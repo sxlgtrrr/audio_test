@@ -1,0 +1,45 @@
+# Archives and datasets
+traindata_voiceckpt.zip
+3-2_rvc_course/AISLEE3-SSB0011/
+3-2_rvc_course/data/course_voice/
+
+# RVC training artifacts (large)
+3-2_rvc_course/logs/**/*
+!3-2_rvc_course/logs/mute/
+!3-2_rvc_course/logs/mute/**
+!3-2_rvc_course/logs/**/filelist*.txt
+!3-2_rvc_course/logs/**/train.log
+!3-2_rvc_course/logs/**/config.json
+!3-2_rvc_course/logs/**/preprocess.log
+!3-2_rvc_course/logs/**/extract_f0_feature.log
+
+3-2_rvc_course/assets/hubert/*.pt
+3-2_rvc_course/assets/hubert/hubert-base-ls960/
+3-2_rvc_course/assets/rmvpe/
+3-2_rvc_course/assets/pretrained/
+3-2_rvc_course/assets/pretrained_v2/
+3-2_rvc_course/assets/weights/
+3-2_rvc_course/assets/indices/
+
+# Audio/features (keep experiment outputs)
+*.wav
+!outputs/**/*.wav
+!demo.wav
+!3-2_rvc_course/logs/mute/**/*.wav
+
+*.npy
+!3-2_rvc_course/logs/mute/**/*.npy
+
+*.pth
+*.pt
+*.index
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
