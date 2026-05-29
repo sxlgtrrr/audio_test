@@ -39,6 +39,7 @@ traindata_voiceckpt.zip
 
 *.npy
 !3-2_rvc_course/logs/mute/**/*.npy
+!assets/speecht5_speaker_embedding.npy
 
 *.pth
 *.pt
