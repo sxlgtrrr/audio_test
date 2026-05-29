@@ -3,15 +3,25 @@ traindata_voiceckpt.zip
 3-2_rvc_course/AISLEE3-SSB0011/
 3-2_rvc_course/data/course_voice/
 
-# RVC training artifacts (large)
+# RVC training artifacts (large) — keep text logs and filelists
 3-2_rvc_course/logs/**/*
 !3-2_rvc_course/logs/mute/
 !3-2_rvc_course/logs/mute/**
-!3-2_rvc_course/logs/**/filelist*.txt
-!3-2_rvc_course/logs/**/train.log
-!3-2_rvc_course/logs/**/config.json
-!3-2_rvc_course/logs/**/preprocess.log
-!3-2_rvc_course/logs/**/extract_f0_feature.log
+!3-2_rvc_course/logs/aishell_voice/
+!3-2_rvc_course/logs/aishell_voice/**
+!3-2_rvc_course/logs/course_rvc/
+!3-2_rvc_course/logs/course_rvc/**
+3-2_rvc_course/logs/**/*.wav
+3-2_rvc_course/logs/**/*.npy
+3-2_rvc_course/logs/**/*.pt
+3-2_rvc_course/logs/**/*.pth
+3-2_rvc_course/logs/**/*.index
+3-2_rvc_course/logs/**/0_gt_wavs/
+3-2_rvc_course/logs/**/1_16k_wavs/
+3-2_rvc_course/logs/**/2a_f0/
+3-2_rvc_course/logs/**/2b-f0nsf/
+3-2_rvc_course/logs/**/3_feature256/
+3-2_rvc_course/logs/**/3_feature768/
 
 3-2_rvc_course/assets/hubert/*.pt
 3-2_rvc_course/assets/hubert/hubert-base-ls960/

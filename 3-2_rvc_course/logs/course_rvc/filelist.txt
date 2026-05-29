@@ -1,0 +1,12 @@
+C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\mute/0_gt_wavs/mute40k.wav|C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\mute/3_feature768/mute.npy|0
+C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\0_gt_wavs/7_1.wav|C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\3_feature768/7_1.npy|0
+C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\0_gt_wavs/1_1.wav|C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\3_feature768/1_1.npy|0
+C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\0_gt_wavs/2_1.wav|C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\3_feature768/2_1.npy|0
+C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\0_gt_wavs/3_1.wav|C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\3_feature768/3_1.npy|0
+C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\0_gt_wavs/8_1.wav|C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\3_feature768/8_1.npy|0
+C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\mute/0_gt_wavs/mute40k.wav|C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\mute/3_feature768/mute.npy|0
+C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\0_gt_wavs/5_1.wav|C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\3_feature768/5_1.npy|0
+C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\0_gt_wavs/9_1.wav|C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\3_feature768/9_1.npy|0
+C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\0_gt_wavs/6_1.wav|C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\3_feature768/6_1.npy|0
+C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\0_gt_wavs/11_1.wav|C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\3_feature768/11_1.npy|0
+C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\0_gt_wavs/4_1.wav|C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\3_feature768/4_1.npy|0
