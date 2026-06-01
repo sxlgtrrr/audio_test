@@ -271,3 +271,28 @@
 2026-05-29 13:27:51,390	course_rvc	INFO	Eval Epoch: 20, val/loss_mel=24.870
 2026-05-29 13:27:51,390	course_rvc	INFO	Training is done. The program is closed.
 2026-05-29 13:27:51,602	course_rvc	INFO	saving final ckpt:Success.
+2026-05-31 22:49:01,984	course_rvc	INFO	{'train': {'log_interval': 200, 'seed': 1234, 'epochs': 20000, 'learning_rate': 0.0001, 'betas': [0.8, 0.99], 'eps': 1e-09, 'batch_size': 4, 'fp16_run': True, 'lr_decay': 0.999875, 'segment_size': 12800, 'init_lr_ratio': 1, 'warmup_epochs': 0, 'c_mel': 45, 'c_kl': 1.0}, 'data': {'max_wav_value': 32768.0, 'sampling_rate': 40000, 'filter_length': 2048, 'hop_length': 400, 'win_length': 2048, 'n_mel_channels': 125, 'mel_fmin': 0.0, 'mel_fmax': None, 'training_files': './logs\\course_rvc/filelist.txt'}, 'model': {'inter_channels': 192, 'hidden_channels': 192, 'filter_channels': 768, 'n_heads': 2, 'n_layers': 6, 'kernel_size': 3, 'p_dropout': 0, 'resblock': '1', 'resblock_kernel_sizes': [3, 7, 11], 'resblock_dilation_sizes': [[1, 3, 5], [1, 3, 5], [1, 3, 5]], 'upsample_rates': [10, 10, 2, 2], 'upsample_initial_channel': 512, 'upsample_kernel_sizes': [16, 16, 4, 4], 'use_spectral_norm': False, 'gin_channels': 256, 'spk_embed_dim': 109}, 'model_dir': './logs\\course_rvc', 'experiment_dir': './logs\\course_rvc', 'save_every_epoch': 1, 'name': 'course_rvc', 'total_epoch': 5, 'pretrainG': 'assets/pretrained_v2/G40k.pth', 'pretrainD': 'assets/pretrained_v2/D40k.pth', 'version': 'v2', 'gpus': '0', 'sample_rate': '40k', 'if_f0': 0, 'if_latest': 1, 'save_every_weights': '1', 'if_cache_data_in_gpu': 0}
+2026-05-31 22:49:04,893	course_rvc	DEBUG	./logs\course_rvc\D_2333333.pth
+2026-05-31 22:49:05,396	course_rvc	INFO	Loaded model weights
+2026-05-31 22:49:05,481	course_rvc	INFO	Loaded checkpoint './logs\course_rvc\D_2333333.pth' (epoch 20)
+2026-05-31 22:49:05,486	course_rvc	INFO	loaded D
+2026-05-31 22:49:05,487	course_rvc	DEBUG	./logs\course_rvc\G_2333333.pth
+2026-05-31 22:49:05,847	course_rvc	INFO	Loaded model weights
+2026-05-31 22:49:05,928	course_rvc	INFO	Loaded checkpoint './logs\course_rvc\G_2333333.pth' (epoch 20)
+2026-05-31 22:49:05,956	course_rvc	INFO	Epoch 20/5 start, batches=3
+2026-05-31 22:49:08,413	course_rvc	INFO	Train Epoch: 20 [33%]
+2026-05-31 22:49:08,413	course_rvc	INFO	[57, 9.968796830108985e-05]
+2026-05-31 22:49:08,413	course_rvc	INFO	loss_disc=3.646, loss_gen=5.437, loss_fm=8.280,loss_mel=20.846, loss_kl=2.255
+2026-05-31 22:49:09,183	course_rvc	INFO	Train Epoch: 20 [67%]
+2026-05-31 22:49:09,183	course_rvc	INFO	[58, 9.968796830108985e-05]
+2026-05-31 22:49:09,184	course_rvc	INFO	loss_disc=2.427, loss_gen=5.742, loss_fm=18.178,loss_mel=31.306, loss_kl=1.823
+2026-05-31 22:49:09,699	course_rvc	INFO	Train Epoch: 20 [100%]
+2026-05-31 22:49:09,699	course_rvc	INFO	[59, 9.968796830108985e-05]
+2026-05-31 22:49:09,700	course_rvc	INFO	loss_disc=3.065, loss_gen=3.955, loss_fm=16.235,loss_mel=27.116, loss_kl=1.892
+2026-05-31 22:49:09,711	course_rvc	INFO	Saving model and optimizer state at epoch 20 to ./logs\course_rvc\G_2333333.pth
+2026-05-31 22:49:10,215	course_rvc	INFO	Saving model and optimizer state at epoch 20 to ./logs\course_rvc\D_2333333.pth
+2026-05-31 22:49:11,041	course_rvc	INFO	saving ckpt course_rvc_e20:Success.
+2026-05-31 22:49:11,042	course_rvc	INFO	====> Epoch: 20 [2026-05-31 22:49:11] | (0:00:05.083308)
+2026-05-31 22:49:17,797	course_rvc	INFO	Eval Epoch: 20, val/loss_mel=34.183
+2026-05-31 22:49:17,799	course_rvc	INFO	Training is done. The program is closed.
+2026-05-31 22:49:18,046	course_rvc	INFO	saving final ckpt:Success.

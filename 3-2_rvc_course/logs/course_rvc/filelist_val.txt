@@ -1,1 +1,1 @@
-C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\0_gt_wavs/0_1.wav|C:\Users\sxl\Desktop\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\3_feature768/0_1.npy|0
+G:\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\0_gt_wavs/0_1.wav|G:\语音信息处理实验三\3-2_rvc_course\logs\course_rvc\3_feature768/0_1.npy|0
